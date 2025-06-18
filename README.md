@@ -15,3 +15,6 @@ cd client
 cargo run
 ```
 This will start the client.
+
+## Intentions
+I want to learn more about networking in Rust, so I start with std net and then move to tokio and async.
