@@ -1,22 +1,30 @@
-# Godot
-.import/
-.export/
-.export/*
-.godot/
-*.import
-*.tmp
-*.log
-*.cfg
-*.mono/
-mono_crash.*
-*.godot_export
+# Rust
+/target/
+**/*.rs.bk
 
-# OS generated
-.DS_Store
-Thumbs.db
+# Cargo
+Cargo.lock
+.cargo/
+.cargo_vcs_info.json
 
 # IDEs/editors
 .vscode/
 .idea/
 *.sublime-workspace
 *.sublime-project
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Byebug command history
+.byebug_history
+
+# Misc
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+*.cfg
